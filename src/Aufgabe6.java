@@ -7,7 +7,7 @@ public class Aufgabe6 {
         int height = scanner.nextInt();
 
         System.out.println("\nDreieck ");
-        drawDreieck(height);
+        drawTriangle(height);
 
         System.out.print("\nGeben Sie die Höhe des Baum ein:");
         int TreeHeight = scanner.nextInt();
@@ -16,7 +16,7 @@ public class Aufgabe6 {
         drawTree(TreeHeight);
     }
 
-    public static void drawDreieck(int height) {
+    public static void drawTriangle(int height) {
         for (int i = 1; i <=height; i++) {
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
